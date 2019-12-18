@@ -517,6 +517,8 @@ Item {
     PlasmaCore.DataSource {
         id: systemmonitorDS
         engine: 'systemmonitor'
+
+	interval: 500
     }
     
     PlasmaCore.DataSource {

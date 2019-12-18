@@ -13,8 +13,9 @@ function toKelvin(celsia) {
 }
 
 function getTemperatureStr(celsiaDouble, temperatureUnit) {
-    dbgprint('temp unit: ' + temperatureUnit)
-    return getTemperature(celsiaDouble, temperatureUnit) + (temperatureUnit === TemperatureUnit.CELSIUS || temperatureUnit === TemperatureUnit.FAHRENHEIT ? '째' : '')
+    print('temp unit: ' + temperatureUnit)
+    // use nedit to get proper utf-8 string for � which is 째
+    return getTemperature(celsiaDouble, temperatureUnit) + (temperatureUnit === TemperatureUnit.CELSIUS ? '째C' : temperatureUnit === TemperatureUnit.FAHRENHEIT ? '째F' : 'K')
 }
 
 function getTemperature(celsiaDouble, temperatureUnit) {
