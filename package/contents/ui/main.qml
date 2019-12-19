@@ -55,7 +55,6 @@ Item {
     property double iconBottomMargin: itemHeight * plasmoid.configuration.iconBottomMargin * 0.01
     property bool enableLabelDropShadow: plasmoid.configuration.enableLabelDropShadow
 
-    property var systemmonitorAvailableSources: []
     property var systemmonitorSourcesToAdd: []
 
     property int numberOfParts: temperatureModel.count
@@ -171,14 +170,6 @@ Item {
         reloadAllSources()
     }
 
-    function getSystemmonitorAvailableSources() {
-        if (!systemmonitorAvailableSources.length === 0) {
-	    // then it has not been filled in by "systemmonitorDS onSourceAdded" actions yet so just set to systemmonitorDS.sources
-            systemmonitorAvailableSources = systemmonitorDS.sources
-        }
-        return systemmonitorAvailableSources
-    }
-
     function action_reloadSources() {
         reloadAllSources()
     }
@@ -234,6 +225,7 @@ Item {
 
             } else {
 
+                dbgprint('adding source: ' + source)
                 addSourceToDs(source)
 
             }
@@ -274,7 +266,8 @@ Item {
 
             dbgprint('adding source to systemmonitorDS: ' + source)
 
-            if (getSystemmonitorAvailableSources().indexOf(source) > -1) {
+            if (systemmonitorDS.sources.indexOf(source) > -1) {
+	        // this is an existing source of sytemmonitor so we can connect it
                 dbgprint('adding to connected')
                 addToSourcesOfDatasource(systemmonitorDS, source)
             } else {
@@ -306,7 +299,6 @@ Item {
 
             if (source.indexOf(lmSensorsStart) === 0 || source.indexOf(acpiStart) === 0) {
 
-                systemmonitorAvailableSources.push(source)
                 var staIndex = systemmonitorSourcesToAdd.indexOf(source)
                 if (staIndex > -1) {
                     addToSourcesOfDatasource(systemmonitorDS, source)
