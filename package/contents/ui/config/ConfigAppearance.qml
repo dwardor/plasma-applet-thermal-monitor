@@ -12,7 +12,7 @@ Item {
     property alias cfg_enableLabelDropShadow: enableLabelDropShadow.checked
     
     GridLayout {
-        columns: 2
+        columns: 3
         anchors.left: parent.left
         anchors.right: parent.right
         
@@ -27,6 +27,10 @@ Item {
             maximumValue: 100
             Layout.fillWidth: true
         }
+        Label {
+            text: aliasFontSize.value
+            Layout.alignment: Qt.AlignLeft
+        }
         
         Label {
             text: i18n('Temperature font size:')
@@ -38,6 +42,10 @@ Item {
             minimumValue: 2
             maximumValue: 100
             Layout.fillWidth: true
+        }
+        Label {
+            text: temperatureFontSize.value
+            Layout.alignment: Qt.AlignLeft
         }
         
         Label {
@@ -51,6 +59,10 @@ Item {
             maximumValue: 100
             Layout.fillWidth: true
         }
+        Label {
+            text: iconFontSize.value
+            Layout.alignment: Qt.AlignLeft
+        }
 
         Label {
             text: i18n('Temperature right margin:')
@@ -62,6 +74,10 @@ Item {
             minimumValue: 0
             maximumValue: 80
             Layout.fillWidth: true
+        }
+        Label {
+            text: temperatureRightMargin.value
+            Layout.alignment: Qt.AlignLeft
         }
         
         Label {
@@ -75,16 +91,20 @@ Item {
             maximumValue: 100
             Layout.fillWidth: true
         }
+        Label {
+            text: iconBottomMargin.value
+            Layout.alignment: Qt.AlignLeft
+        }
         
         Item {
             width: 2
             height: 10
-            Layout.columnSpan: 2
+            Layout.columnSpan: 3
         }
         
         CheckBox {
             id: enableLabelDropShadow
-            Layout.columnSpan: 2
+            Layout.columnSpan: 3
             text: i18n('Enable label drop shadow')
         }
     }

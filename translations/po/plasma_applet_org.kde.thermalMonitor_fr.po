@@ -35,23 +35,23 @@ msgstr "Divers"
 msgid "Alias font size:"
 msgstr "Taille de la police Alias :"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:32
+#: ../package/contents/ui/config/ConfigAppearance.qml:36
 msgid "Temperature font size:"
 msgstr "Taille de la police Température :"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:44
+#: ../package/contents/ui/config/ConfigAppearance.qml:52
 msgid "Icon font size:"
 msgstr "Taille de la police Icône :"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:56
+#: ../package/contents/ui/config/ConfigAppearance.qml:68
 msgid "Temperature right margin:"
 msgstr "Marge droite de température :"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:68
+#: ../package/contents/ui/config/ConfigAppearance.qml:84
 msgid "Notification icon bottom margin:"
 msgstr "Marge basse d'icône de notification :"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:88
+#: ../package/contents/ui/config/ConfigAppearance.qml:108
 msgid "Enable label drop shadow"
 msgstr "Activer l'ombre d'estompage d'étiquette"
 

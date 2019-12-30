@@ -35,23 +35,23 @@ msgstr "Διάφορα"
 msgid "Alias font size:"
 msgstr "Μέγεθος γραμματοσειράς ψευδώνυμου:"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:32
+#: ../package/contents/ui/config/ConfigAppearance.qml:36
 msgid "Temperature font size:"
 msgstr "Μέγεθος γραμματοσειράς θερμοκρασίας:"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:44
+#: ../package/contents/ui/config/ConfigAppearance.qml:52
 msgid "Icon font size:"
 msgstr "Μέγεθος γραμματοσειράς εικονιδίου:"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:56
+#: ../package/contents/ui/config/ConfigAppearance.qml:68
 msgid "Temperature right margin:"
 msgstr "Δεξί περιθώριο θερμοκρασίας:"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:68
+#: ../package/contents/ui/config/ConfigAppearance.qml:84
 msgid "Notification icon bottom margin:"
 msgstr "Κάτω περιθώριο εικονιδίου ειδοποίησης:"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:88
+#: ../package/contents/ui/config/ConfigAppearance.qml:108
 msgid "Enable label drop shadow"
 msgstr "Ενεργοποίηση σκιάς ετικέτας"
 

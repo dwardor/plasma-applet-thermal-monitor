@@ -36,23 +36,23 @@ msgstr "Razno"
 msgid "Alias font size:"
 msgstr "Veličina fonta za pseudonim:"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:32
+#: ../package/contents/ui/config/ConfigAppearance.qml:36
 msgid "Temperature font size:"
 msgstr "Veličina fonta za temperaturu:"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:44
+#: ../package/contents/ui/config/ConfigAppearance.qml:52
 msgid "Icon font size:"
 msgstr "Veličina fonta za ikonu:"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:56
+#: ../package/contents/ui/config/ConfigAppearance.qml:68
 msgid "Temperature right margin:"
 msgstr "Desna margina za temperaturu:"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:68
+#: ../package/contents/ui/config/ConfigAppearance.qml:84
 msgid "Notification icon bottom margin:"
 msgstr "Donja margina za ikonu obavještenja"
 
-#: ../package/contents/ui/config/ConfigAppearance.qml:88
+#: ../package/contents/ui/config/ConfigAppearance.qml:108
 msgid "Enable label drop shadow"
 msgstr "Sjenka etikete"
 
