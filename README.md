@@ -1,4 +1,4 @@
-This is deprecated. For Plama 6 go see: [https://invent.kde.org/dwardor/thermalmonitor](https://invent.kde.org/dwardor/thermalmonitor)
+This is deprecated. For Plasma 6 go see: [https://invent.kde.org/dwardor/thermalmonitor](https://invent.kde.org/dwardor/thermalmonitor)
 
 
 
