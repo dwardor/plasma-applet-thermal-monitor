@@ -1,3 +1,7 @@
+This is deprecated. For Plama 6 go see: [https://invent.kde.org/dwardor/thermalmonitor](https://invent.kde.org/dwardor/thermalmonitor)
+
+
+
 Thermal Monitor
 ---------------
 Plasma 5 applet for monitoring CPU, GPU and other available temperature sensors.
